@@ -1,7 +1,7 @@
 {
   "name": "vue-codeeditor",
   "description": "简单代码编辑器",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "gukun",
   "license": "MIT",
   "private": false,
