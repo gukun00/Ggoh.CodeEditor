@@ -1,0 +1,27 @@
+# Logs
+logs
+*.log
+npm-debug.log
+selenium-debug.log
+npm-debug.log*
+
+# System
+.DS_Store
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Package
+package-lock.json
+
+# Test
+test/unit/coverage
+test/e2e/reports
+
+# Dependency directories
+node_modules
+node_modules/
+jspm_packages
