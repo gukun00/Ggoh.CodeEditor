@@ -51,7 +51,7 @@
     </div>
 </template>
 <script>
-var timer = null;
+let timer = null;
 export default {
   name: "vue-pay-keyboard",
   props: {
