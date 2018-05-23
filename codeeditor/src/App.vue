@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <vue-pay-keyboard :is-pay='true'></vue-pay-keyboard>
     <img src="./assets/logo.png">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
@@ -17,7 +16,7 @@
       <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
-    
+    <vue-area-select :isShow=true></vue-area-select>
   </div>
 </template>
 

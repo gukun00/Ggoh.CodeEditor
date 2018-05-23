@@ -1,6 +1,6 @@
 # codeeditor
 
-> 简单代码编辑器
+> A Vue.js project
 
 ## Build Setup
 
