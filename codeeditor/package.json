@@ -1,7 +1,7 @@
 {
   "name": "vue-codeeditor",
   "description": "A Vue.js project",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "gukun",
   "license": "MIT",
   "private": false,
@@ -9,7 +9,7 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
-  "main": "dist/vue-area-select-lei.js",
+  "main": "dist/vue-codeeditor.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/gukun00/vue-codeeditor"
