@@ -2,14 +2,19 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/main.js',
+  // output: {
+  //   path: path.resolve(__dirname, './dist'),
+  //   publicPath: '/dist/',
+  //   filename: 'vue-codeeditor.js', //打包生成文件的名字
+  //   // library: 'CodeEditor', //reqire引入的名字
+  //   // libraryTarget: 'umd',
+  //   // umdNamedDefine: true
+  // },
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'vue-codeeditor.js', //打包生成文件的名字
-    library: 'CodeEditor', //reqire引入的名字
-    libraryTarget: 'umd',
-    umdNamedDefine: true
+    filename: 'build.js'
   },
   module: {
     rules: [{

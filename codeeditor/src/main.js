@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
-import areaSelect from './index'
+import codeEditor from './index'
 
-Vue.use(areaSelect)
+Vue.use(codeEditor)
 
 new Vue({
   el: '#app',
