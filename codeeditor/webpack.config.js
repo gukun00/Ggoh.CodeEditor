@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'vue-codeeditor.js', //打包生成文件的名字
+    filename: 'build.js', //打包生成文件的名字
     library: 'CodeEditor', //reqire引入的名字
     libraryTarget: 'umd',
     umdNamedDefine: true
